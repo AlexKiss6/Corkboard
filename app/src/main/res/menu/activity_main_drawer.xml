@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_main"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_create"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Create" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Gallery" />
+        <item
+            android:id="@+id/nav_subscriptions"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Subscriptions" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_filter"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Filter" />
+            <item
+                android:id="@+id/nav_account_settings"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Account Settings" />
+        </menu>
+    </item>
+
+</menu>
