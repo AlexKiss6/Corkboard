@@ -43,6 +43,9 @@ public class MainActivity extends AppCompatActivity
 
     }
 
+    /**
+     * Return to previous Fragment or Activity on back button pressed
+     */
     @Override
     public void onBackPressed() {
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
@@ -77,6 +80,9 @@ public class MainActivity extends AppCompatActivity
         return super.onOptionsItemSelected(item);
     }
 
+    /**
+     * Creates different fragments according to the option selected on the Navigation Drawer
+     */
     @SuppressWarnings("StatementWithEmptyBody")
     @Override
     public boolean onNavigationItemSelected(MenuItem item) {
